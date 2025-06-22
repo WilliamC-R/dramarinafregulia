@@ -1,0 +1,466 @@
+body, html {
+     
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      overflow-x: hidden;
+    }
+    .banner {
+     background-color: rgb(233, 233, 223);
+       
+  
+    }
+  
+    
+ .banner-alternativa {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 50px;
+  
+}
+
+
+.img-banner {
+  width: 100%;
+  max-height: 100vh;
+  object-fit: cover 30%; /* ou cover, conforme o efeito desejado */
+}
+
+.img-mobile {
+  display: none;
+}
+
+  
+
+
+.dr-text {
+  font-size: clamp(2.5rem, 5vw, 5.5rem);
+  font-weight: 150 ;
+  font-family: 'July it', cursive;
+  color: black;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.1);
+  margin-right: 2px;
+
+}
+
+.nome-text {
+  font-size: clamp(2.5rem, 4.5vw, 5.5rem);
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.1);
+  position: relative;
+  /* text-decoration: underline;*/
+   font-family: 'July it';
+  text-decoration-color: black;
+  text-decoration-thickness: 6px;
+  text-underline-offset: 1rem;
+  margin-left: 20px;
+  
+}
+
+   
+    
+    .nav-custom {
+      background-color: #181f07 !important
+    }
+    
+    .info-text {
+      margin-top: 20px;
+    }
+
+ 
+   .mobile {
+    display: none;
+   }
+
+   .mobile-text {
+    display: none;  
+  }
+    
+/* Estilo para a seção de citação */
+.quote-section {
+  background-color: rgba(129, 129, 101, 0.992);/* ou cor do seu banner */
+  padding: 60px 20px;
+  font-family: 'Georgia', serif;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.quote-lead {
+  font-size: clamp(2rem, 3vw, 5.5rem);
+  font-weight: 400;
+}
+
+.quote-italic {
+  font-style: italic;
+}
+
+.quote-main {
+  font-size: clamp(2rem, 3vw, 5.5rem);
+  margin-top: 20px;
+  line-height: 1.2;
+}
+
+.quote-bold {
+  font-weight: 700;
+  font-family: 'Arial', sans-serif;
+}
+
+.quote-italic-bold {
+  font-style: italic;
+  font-size: clamp(2rem, 3vw, 5.5rem);
+  font-weight: 400;
+  font-family: 'Georgia', serif;
+}
+
+    /*box de detalhes do evento*/
+
+    .evento-detalhes {
+  background-color: #f9f5f0;
+  padding: 60px 20px;
+  
+}
+
+.evento-titulo {
+  font-size: clamp(2.5rem, 4vw, 5.5rem);
+  color: #000000;
+  font-weight: bold;
+}
+
+.evento-descricao {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.evento-box {
+  background: white;
+  padding: 25px;
+  color: #000000;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.evento-box:hover {
+  transform: scale(1.03);
+}
+.cta-presentes {
+  background-color: #f9f5f0;
+  padding: 60px 20px;
+}
+
+.cta-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #181f07;
+}
+
+.cta-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.cta-presentes .btn-primary {
+  background-color: #181f07;
+  border: none;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-presentes .btn-primary:hover {
+  background-color: #1d5d18;
+}
+
+/*lista de presentes*/
+
+  body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      margin-top: 5vh;
+      color: #000000;
+      grid-row: inherit;
+      text-align: center;
+    }
+
+    
+    .nav-custom {
+      background-color: #00796b;
+    }
+    
+    .info-text {
+      margin-top: 40px;
+    }
+    .gift-section {
+      padding-bottom: 60px;
+     
+      background-color: 233, 233, 223;
+    }
+    .gift-header {
+          color: rgb(0, 0, 0);
+      padding-left: 10vh;
+      padding-right: 10vh;
+      padding-top: 10vh;
+      text-align: center;
+      
+    }
+    .gift-card {
+  width: 100%;
+  max-width: 250px;
+  min-height: 200px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.653);
+  text-align: center;
+  color: #000;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0 auto 10px auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+.gift-info {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fffbe7;
+  border-radius: 10px;
+  padding: 20px 10px;
+  animation: fadeIn 0.5s;
+  font-size: 1rem;
+  color: #181f07;
+  box-shadow: none;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+    .gift-card img {
+  max-width: 90%;
+  max-height: 180px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+.gift-card img:hover {
+  opacity: 0.8;
+}
+
+    .card-title {
+        text-align: center;
+  width: 100%;
+  margin-top: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #181f07; /* ou outra cor do seu tema */
+}
+    
+    .gift-card .card-body {
+      padding: 2px;
+    }
+    .gift-card .btn {
+      margin: 5px;
+    }
+
+
+  .presente-livre-section {
+  background-color: #f4f4ef; /* tom neutro, suave */
+  padding: 60px 20px;
+  color: #333;
+}
+
+.presente-titulo {
+  font-size: clamp(2rem, 3.5vw, 4rem);
+  font-weight: bold;
+  color: #181f07;
+  margin-bottom: 20px;
+  font-family: 'Cinzel', serif;
+}
+
+.presente-texto {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 700px;
+  margin: auto auto 30px auto;
+  font-family: 'Georgia', serif;
+}
+
+.presente-livre-section .btn-primary {
+  background-color: #181f07;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+.presente-livre-section .btn-primary:hover {
+  background-color: #1d5d18;
+}
+.gift-info {
+  animation: fadeIn 0.5s;
+}
+
+
+
+       /*celular*/
+
+@media (max-width: 932px) {
+
+  .mobile {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+       padding: 10px;
+    background-color: #ffffff;
+    margin-top: -300px;
+  z-index: 1000;
+  }
+
+  .mobile-text {
+    display: block;
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #000;
+      width: fit-content;
+   
+  }
+
+  .dr-text, .nome-text {
+    display: none;
+  }
+
+  
+  .banner-alternativa {
+    height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(233, 233, 223);
+  position: relative;
+  overflow: hidden;
+    
+    
+  }
+  .img-banner {
+    
+    display: none;
+   
+  }
+
+  .img-mobile {
+        max-width: 100%;
+    width: 100vw;
+    height: 100%;
+    max-height: 100vh;
+    object-fit: center; /* ou cover, conforme o efeito desejado */
+    display: block;
+    margin: 0 auto;
+}
+    
+  }
+  .quote-section {
+    padding: 10px 10px;
+    text-align: center;
+    background: rgb(119, 119, 116);
+
+  }
+
+  .gift-header {
+    padding: 24px 10px !important;
+    text-align: center !important;
+    color: #181f07 !important;
+    background: none !important;
+    background-color: #f9f5f0 !important;
+    /* Adicione outros estilos que queira garantir no mobile */
+  }
+
+  
+  
+
+img {
+  max-height: 200px;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gift-card {
+  max-width: 100%;
+  min-height: 200px;
+  margin: 10px auto;
+  box-shadow: none;
+}
+
+.gift-header{ 
+  padding: 5vh;
+  
+
+}
+
+
+@font-face {
+  font-family: 'July It';
+  src: url('fonts/July_it.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.lead {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+
+
+#checkout {
+  background-color: #dd0c40;     /* Verde Bootstrap */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#checkout:hover {
+  background-color: #0e2e1f;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
